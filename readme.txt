@@ -19,6 +19,12 @@ git log --pretty=online
 git reset --hard HEAD^
 回退倒上一版本
 git reset --hard HEAD^^
-回退倒上一版本
+回退倒上上一版本
+git reset --hard HEAD~100
+回退倒往上100个版本
+git reset --hard <commit id>
+指定返回某一版本文件
+git checkout --file
+丢弃工作区的修改
 
 
