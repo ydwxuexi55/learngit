@@ -25,6 +25,10 @@ git reset --hard HEAD~100
 git reset --hard <commit id>
 指定返回某一版本文件
 git checkout --file
-丢弃工作区的修改
-
-
+丢弃工作区的修改（文件内容改乱，直接丢弃工作区的修改）
+git reset HEAD <filename>
+将暂存区的修改撤销掉
+git rm <filename>
+从版本库中删除文件
+git remote add origin git@github.com:xxx
+添加远程库
